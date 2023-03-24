@@ -9,7 +9,7 @@
 </head>
 <body>
     <div id="app">
-        <ul>
+        <ul v-show="email.length == 10">
             <li v-for="email in email">{{email}}</li>
         </ul>
         
